@@ -1,0 +1,34 @@
+/*This is our css.*/
+.butt{
+    color: white;
+    background-color: #594cda;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.butt2{
+    color: white;
+    background-color: #eb427d;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 3px;
+    margin: 5px 5px;
+}
+.lastPara{
+    width: 300px ;
+    text-align: center;
+    text-decoration: none;
+}
+a{
+    color: #594bda;
+    text-decoration: none;
+}
+footer{
+    display: flex;
+    background-color: teal;
+    justify-content: space-between;
+}
+.left{
+    margin-left: 150px;
+
+}
