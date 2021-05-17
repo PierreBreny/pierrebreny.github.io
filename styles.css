@@ -88,3 +88,16 @@ a:hover {
 	color: #ffffff;
 	text-decoration: none;
 }
+
+.counter #counter {
+	margin-bottom: 0.75rem;
+}
+
+.counter {
+	text-align: center;
+}
+
+body, p {
+	color: #6b747b;
+	font: 400 1rem/1.625rem "Open Sans", sans-serif;
+}
