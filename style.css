@@ -106,3 +106,254 @@ a{
     padding: 3px ;
     opacity: 0.3;
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+@media (max-width: 768px) {
+  .pricing {
+    display: block;
+  }
+}
+
+body {
+  margin: 0px;
+}
+
+.Testimonials_title h2 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: -2px;
+  font-weight: 700;
+  letter-spacing: 0;
+  margin-bottom: 60px;
+  text-align: center;
+  margin-top: 70px;
+  /* color: var(--first_color); */
+}
+
+.testimonials_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.testimonials_container_center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0fafc;
+}
+
+.testimonials_content {
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  transform: scale(0.9);
+  opacity: 0.9;
+  background-color: #f0fafc;
+}
+
+.testimonials_avatar {
+  position: absolute;
+  left: 50%;
+  top: -30px;
+  width: 90px;
+  height: 90px;
+  margin-left: -35px;
+  z-index: 1;
+}
+
+.testimonials_avatar img {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+}
+
+.testimonials_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 50px 50px 10px;
+  overflow: hidden;
+  border: 1ps solid #f0fafc;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.testimonials_text p {
+  color: rgb(77, 77, 77);
+  font-size: 14px;
+  font-family: "Merriweather Sans", sans-serif;
+  font-style: italic;
+  line-height: 24px;
+  padding-bottom: 0px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.user_information p {
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 600;
+  color: black;
+  font-size: 14px;
+  font-style: normal;
+  padding-top: 0px;
+  margin-top: 10px;
+}
+
+.testimonials_container_center {
+  opacity: 1;
+  transform: scale(0.98);
+  width: 80%;
+  flex-grow: 6;
+  background-color: #f0fafc;
+}
+
+.bi {
+  color: #3d3d3d;
+  font-size: 40px;
+  flex-direction: row;
+}
+
+#users {
+  padding: 25px 25px 25px 25px;
+  background-color: #f0fafc;
+}
+
+#Testimonials {
+  background-color: #f0fafc;
+  padding: 40px 150px 100px 150px;
+}
+
+.arrow {
+  color: gray;
+}
+
+#container {
+  background-color: #003049;
+  width: 90%;
+  height: 500px;
+  margin: 0 auto;
+  border: 5px solid #003049;
+}
+
+#pricing_plan {
+  /* background-image: url(images/pricing-background.jpg); */
+  background-size: cover;
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+.pricing-plan p span {
+  color: rgb(0, 0, 0);
+}
+
+#pricing_top {
+  text-align: center;
+  padding-top: 80px;
+  margin-bottom: 0px;
+}
+
+#pricing_top h1 {
+  color: white;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 30px;
+}
+
+#pricing_top p {
+  color: white;
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+.space {
+  width: 25px;
+  height: 100px;
+  background-color: white;
+}
+
+.pricing {
+  display: flex;
+  justify-content: space-between;
+  max-width: 960px;
+  margin: auto;
+}
+.pricing-plan {
+  /* flex: 1; */
+  background-color: white;
+  margin: 15px 8px;
+  padding: 30px;
+  border-radius: 6px;
+  color: #fff;
+  border: 1px solid #b6b6b6;
+}
+
+.pricing-plan h2 {
+  color: #e30046;
+  margin-top: 0;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  text-align: center;
+}
+
+.pricing-plan p {
+  margin-top: 0;
+}
+
+.pricing-plan p span {
+  font-size: 33px;
+}
+
+.pricing-plan ul {
+  margin: 0 0 35px;
+  padding-left: 16px;
+  list-style: none;
+  line-height: 1.8;
+  color: rgb(65, 65, 65);
+}
+
+.pricing-plan p {
+  color: rgb(65, 65, 65);
+}
+
+.pricing-plan ul li::before {
+  content: "•";
+  color: #4f00e3;
+  display: inline-block;
+  width: 20px;
+  margin-left: -15px;
+  position: relative;
+  top: 4px;
+  font-size: 26px;
+  line-height: 0;
+}
+.pricing-plan a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  background: #4f00e3;
+  border: 2px solid #4f00e3;
+  border-radius: 20px;
+  letter-spacing: 0.05em;
+  font-size: 15px;
+}
+
+.background {
+  position: absolute;
+  z-index: -1;
+  height: 50px;
+}
+
+.background img {
+  width: 1445px;
+  height: 700px;
+  position: absolute;
+  clip: rect(0px, 1445px, 560px, 0px);
+}
