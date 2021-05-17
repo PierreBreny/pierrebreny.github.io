@@ -22,14 +22,16 @@ position: absolute;
 .text-container1{
 	width: 400px;
 	position:absolute;
-	margin-top: 100px;
+	margin-top: 50px;
+	margin-left: 100px;
+
 }
 
 .text-container2{
-	margin-top: 700px;
+	margin-top: 550px;
 	width: 400px;
 	position: absolute;
-	margin-left: 700px;
+	margin-left: 800px;
 }
 
 .image-container2 {
@@ -110,11 +112,18 @@ a:hover {
 }
 
 .counter #counter {
-	margin-bottom: 0.75rem;
+	margin-top: 10rem;
+	
+	display: flex;
+
+
 }
 
 .counter {
+	display: flex;
 	text-align: center;
+	justify-content: center ;
+
 }
 
 body, p {
