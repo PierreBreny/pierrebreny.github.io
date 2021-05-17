@@ -14,7 +14,27 @@ a {
 	text-decoration: underline;
 }
 
+.image-container1{
+margin-left: 600px;
+position: absolute;
+}
 
+.text-container1{
+	width: 400px;
+	position:absolute;
+	margin-top: 100px;
+}
+
+.text-container2{
+	margin-top: 700px;
+	width: 400px;
+	position: absolute;
+	margin-left: 700px;
+}
+
+.image-container2 {
+	margin-top: 500px;
+}
 
 a:hover {
 	color: #6b747b;
