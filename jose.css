@@ -11,31 +11,34 @@ a {
     text-decoration: underline;
 }
 
-.image-container1 {
-    margin-left: 40%;
-    position: absolute;
-}
-
 .text-container1 {
     width: 30%;
     margin-left: 10%;
 }
 
 .text-container2 {
-    margin-top: 550px;
-    width: 400px;
-    position: absolute;
-    margin-left: 800px;
+    width: 30%;
+    margin-left: 5%;
+    padding-top: 2%;
 }
 
-.image-container2 {
-    margin-top: 500px;
+.text-container3 {
+    width: 30%;
+    margin-left: 10%;
 }
 
 .img-fluid {
     max-width: 100%;
     height: auto;
     width: 85%;
+    margin-left: 10%;
+}
+
+.img-fluid1 {
+    max-width: 100%;
+    height: auto;
+    width: 85%;
+    margin-left: 10%;
 }
 
 a:hover {
@@ -60,10 +63,25 @@ a:hover {
 }
 
 .container {
-    flex-wrap: wrap;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
     padding-left: 3%;
+    align-items: center;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    padding-left: 3%;
+    margin-top: 10%;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: row;
+    padding-left: 3%;
+    align-items: center;
+    margin-top: 10%;
 }
 
 .btn-solid-reg {
@@ -107,16 +125,26 @@ a:hover {
     text-decoration: none;
 }
 
-.counter #counter {
-    margin-top: 10rem;
-
-    display: flex;
-}
-
 .counter {
     display: flex;
     text-align: center;
-    justify-content: center;
+    padding-top: 10%;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-bottom: 5%;
+}
+
+.counter-value {
+    font-size: 350%;
+    font-weight: bold;
+    color: black;
+}
+
+.counter-info {
+    padding-top: 10%;
 }
 
 body,
